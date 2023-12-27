@@ -60,11 +60,11 @@ const LoginPage = () => {
         setChecked((prev) => !prev)
     }
 
-    const handleMouseDown = (): void => {
+    const handleMouseDown = () => {
         setHolding(true)
     }
 
-    const handleMouseUp = (): void => {
+    const handleMouseUp = () => {
         setHolding(false)
         setTimeRemaining(500)
     }
